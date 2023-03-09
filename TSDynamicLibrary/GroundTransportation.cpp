@@ -1,5 +1,6 @@
 #include "GroundTransportation.h"
 
+
 Camel::Camel() {
 	Transport::name = "Верблюд";
 	Transport::speed = 10;
@@ -7,6 +8,7 @@ Camel::Camel() {
 	Transport::RestTime1 = 5;
 	Transport::RestTimeAfter = 8;
 }
+
 
 CamelIsFast::CamelIsFast() {
 	Transport::name = "Верблюд-быстроход";
@@ -24,6 +26,7 @@ Centaur::Centaur() {
 	Transport::time = 8;
 	Transport::RestTimeAfter = 2;
 }
+
 
 AllTerrainBoots::AllTerrainBoots() {
 	Transport::name = "Ботинки-вездеходы";

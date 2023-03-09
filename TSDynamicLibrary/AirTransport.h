@@ -8,5 +8,15 @@
 #endif
 
 DLL_API class MagicCarpet : public Transport {
+public:
 	MagicCarpet();
+};
+
+
+DLL_API class Eagle : public Transport {
+	Eagle();
+};
+
+DLL_API class Broomstick : public Transport {
+	Broomstick();
 };

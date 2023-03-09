@@ -10,21 +10,28 @@
 
 
 DLL_API class Transport {
-protected:
+public:
 	std::string name;
-	int speed;
-	float time;
-	float RestTime1;
-	float RestTime2;
-	float RestTimeAfter;
-	float Coefficient;
+	int speed = 0;
+	int TransportNumber = 0;
+	float time = 0;
+	float RestTime1 = 0;
+	float RestTime2 = 0;
+	float RestTimeAfter = 0;
+	float Coefficient = 0;
+
+	float RaceCompletionTime = 0;
+	float DistanceReduction = 0;
 
 public:
 	std::string getName();
 	int getSpeed();
+	int getTransportNumber();
 	float getTime();
 	float getRestTime1();
 	float getRestTime2();
 	float getRestTimeAfter();
 	float getCoefficient();
+
+	float RaceCompletionTime1(float distance);
 };

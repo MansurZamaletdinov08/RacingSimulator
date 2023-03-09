@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="Distance.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RaceSettings.cpp" />
+    <ClCompile Include="Registration.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TSDynamicLibrary\TSDynamicLibrary.vcxproj">
@@ -137,6 +139,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Distance.h" />
+    <ClInclude Include="RaceSettings.h" />
+    <ClInclude Include="Registration.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

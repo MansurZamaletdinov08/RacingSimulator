@@ -1,5 +1,11 @@
 #include <iostream>
-#include "Distance.h"
+#include "../TSDynamicLibrary/Transport.h"
+
+
+
+void SortTransports(int i) {
+
+}
 
 int main() {
 	setlocale(LC_ALL, "Ru");
@@ -7,7 +13,6 @@ int main() {
 	int type, distance, registration, transport;
 	int race;
 
-	Distance(distance);
 	do {
 		std::cout << "1. Гонка для наземного транспорта." << std::endl;
 		std::cout << "2. Гонка для воздушного транспорта. " << std::endl;

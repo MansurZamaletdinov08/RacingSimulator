@@ -1,5 +1,7 @@
 #include "Distance.h"
 
+
+/*
 int Distance(int distance) {
 	int value;
 	if (distance < 1000) {
@@ -21,5 +23,6 @@ int Distance(int distance) {
 		value = distance * 0.95;
 		return 4;
 	}
-	//return value;
+	return value;
 }
+*/
